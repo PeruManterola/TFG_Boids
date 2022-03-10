@@ -17,6 +17,7 @@ public class FlockSpawner : MonoBehaviour
     private void Update()
     {
         textMeshProUGUI.text = $"Cantidad: {spawnSlider.value}";
+
     }
 
     public void SpawnFlock()
