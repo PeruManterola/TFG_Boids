@@ -6,6 +6,7 @@ using UnityEngine;
 public class PhysicsLayerFilter : ContextFilter
 {
     public LayerMask mask;
+    //public Transform newItem;
 
     public override List<Transform> Filter(FlockAgent agent, List<Transform> original)
     {
@@ -14,7 +15,10 @@ public class PhysicsLayerFilter : ContextFilter
         foreach (Transform item in original)
         {
 
-            Vector3 closestPoint = item.gameObject.GetComponent<Collider>().ClosestPoint(agent.transform.position);
+            //Vector3 closestPoint = item.gameObject.GetComponent<Collider>().ClosestPoint(agent.transform.position);
+
+
+
             if (mask == (mask | (1 << item.gameObject.layer)))
             {
                 //item.position = closestPoint;

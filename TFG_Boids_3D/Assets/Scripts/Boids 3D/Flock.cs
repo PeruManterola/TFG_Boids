@@ -8,7 +8,7 @@ public class Flock : MonoBehaviour
     List<FlockAgent> agents = new List<FlockAgent>();
     public FlockBehaviour behaviour;
 
-    [Range(10, 500)]
+    [Range(10, 2000)]
     public int startingCount = 250;
     const float AgentDensity = 0.08f;
 

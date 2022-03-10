@@ -60,7 +60,10 @@ public class CompositeBehaviour : FlockBehaviour
         newWeights[oldCount] = 1f;
         behaviours = newBehaviours;
         weights = newWeights;
+#if UNITY_EDITOR
         EditorUtility.SetDirty(this);
+
+#endif
 
     }
     [Button]
@@ -82,6 +85,9 @@ public class CompositeBehaviour : FlockBehaviour
         }
         behaviours = newBehaviours;
         weights = newWeights;
+#if UNITY_EDITOR
         EditorUtility.SetDirty(this);
+#endif
+
     }
 }

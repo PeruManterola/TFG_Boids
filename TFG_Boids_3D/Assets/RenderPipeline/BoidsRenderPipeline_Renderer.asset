@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
   m_Name: BoidsRenderPipeline_Renderer
   m_EditorClassIdentifier: 
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: 8805084032892348816}
+  m_RendererFeatureMap: 902903ce46f1317a
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   shaders:
@@ -43,3 +44,29 @@ MonoBehaviour:
   m_ShadowTransparentReceive: 1
   m_RenderingMode: 0
   m_AccurateGbufferNormals: 0
+--- !u!114 &8805084032892348816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a401b6b1bb7fb24ea1bff49cd1e0f13, type: 3}
+  m_Name: NewCausticsFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    strength: 3
+    rgbSplit: 0.3
+    shadowMask: 1
+    texture: {fileID: 0}
+    scale: 5
+    speed: 0.125
+    waterLevel: 0
+    depth: {x: 0, y: 4}
+    fade: 1
+    renderPassEvent: 400
+    debug: 0
+  causticsShader: {fileID: 4800000, guid: e8cdbdcc4287bd344a1d042d8f601b9a, type: 3}

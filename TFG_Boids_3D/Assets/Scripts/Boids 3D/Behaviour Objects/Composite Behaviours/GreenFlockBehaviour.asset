@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de906de8560f66640af44a9ebb0148b0, type: 3}
+  m_Name: GreenFlockBehaviour
+  m_EditorClassIdentifier: 
+  behaviours:
+  - {fileID: 11400000, guid: b9552611e3ef2a747a327d7444c9a73c, type: 2}
+  - {fileID: 11400000, guid: a278a96d043a250479762d83a00a8d53, type: 2}
+  - {fileID: 11400000, guid: e72b8dd0f49ee104baadfcfc3ecd03fa, type: 2}
+  - {fileID: 11400000, guid: fd51d1c1c6364d44e921dd36673fe2a2, type: 2}
+  - {fileID: 11400000, guid: 58825a67857d8e04cb97fc569a5793ab, type: 2}
+  weights:
+  - 4
+  - 1
+  - 2
+  - 1
+  - 3
