@@ -1,0 +1,7 @@
+{
+    "fishId": 0,
+    "sameFlockOnly": true,
+    "speed": 5.0,
+    "neighbourRadius": 1.481102466583252,
+    "avoidanceRadiusMultiplayer": 0.5
+}

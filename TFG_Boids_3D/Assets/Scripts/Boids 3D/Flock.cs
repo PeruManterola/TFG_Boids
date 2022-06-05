@@ -6,6 +6,7 @@ public class Flock : MonoBehaviour
 {
     public FlockAgent agentPrefab;
     List<FlockAgent> agents = new List<FlockAgent>();
+    public List<FlockAgent> AgentList { get { return agents; } }
     public FlockBehaviour behaviour;
 
     [Range(10, 2000)]

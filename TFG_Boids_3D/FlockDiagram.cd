@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Flock">
+    <Position X="3.25" Y="1.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAGAABQQQAABAIAAAABAABAABAAgAECBAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Flock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContextFilter" Collapsed="true">
+    <Position X="13.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\ContextFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsLayerFilter">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Filter Scripts\PhysicsLayerFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SameFlockFilter">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Filter Scripts\SameFlockFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -6,10 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/3d_trials.unity
+    path: Assets/Scenes/SetupScene.unity
+    guid: 75ef207ae8a652e4ab0d196696c68048
+  - enabled: 1
+    path: Assets/Scenes/ocean.unity
     guid: 357262c47bb91914b9e2d746c806f7f2
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: cb28724eed32c8f4e868029e77305286,
       type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
       guid: f779c4a2d3dabf74087039775f08f049, type: 2}
+    com.unity.input.settings: {fileID: 11400000, guid: 58c853e8f5ea2994eb9aa56a59ca60b8,
+      type: 2}
