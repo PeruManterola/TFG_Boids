@@ -17,6 +17,7 @@ public class FoodSpawner : MonoBehaviour
 
     private void Start()
     {
+        origin=transform.position; 
         foodManager = FindObjectOfType<FoodManager>();
         food = foodManager.GetFoodType(PlayerPrefs.GetInt("foodType" + id, 0));
         interestPointBehaviour = foodManager.GetInterestBehaviour(id);

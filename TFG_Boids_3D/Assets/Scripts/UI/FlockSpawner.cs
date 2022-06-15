@@ -18,6 +18,9 @@ public class FlockSpawner : MonoBehaviour
     public FlockAgent fishAgent_1;
     public FlockAgent fishAgent_2;
     public FlockAgent fishAgent_3;
+    public FlockAgent fishAgent_4;
+    public FlockAgent fishAgent_5;
+    public FlockAgent fishAgent_6;
 
     private void Update()
     {
@@ -57,6 +60,15 @@ public class FlockSpawner : MonoBehaviour
                 case 2:
                     flockFiltered.agentPrefab = fishAgent_3;
                     break;
+                case 3:
+                    flockFiltered.agentPrefab = fishAgent_4;
+                    break;
+                case 4:
+                    flockFiltered.agentPrefab = fishAgent_5;
+                    break;
+                case 5:
+                    flockFiltered.agentPrefab = fishAgent_6;
+                    break;
                 default:
                     flockFiltered.agentPrefab = fishAgent_1;
                     break;
@@ -81,6 +93,15 @@ public class FlockSpawner : MonoBehaviour
                     break;
                 case 2:
                     flockUnFiltered.agentPrefab = fishAgent_3;
+                    break;
+                case 3:
+                    flockUnFiltered.agentPrefab = fishAgent_4;
+                    break;
+                case 4:
+                    flockUnFiltered.agentPrefab = fishAgent_5;
+                    break;
+                case 5:
+                    flockUnFiltered.agentPrefab = fishAgent_6;
                     break;
                 default:
                     flockUnFiltered.agentPrefab = fishAgent_1;

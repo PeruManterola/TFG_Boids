@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlockAgent">
+    <Position X="10.75" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQKAAAUAAABAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\FlockAgent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlockBehaviour">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\FlockBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeBehaviour">
+    <Position X="0.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAIAABAAAAAAIAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\CompositeBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InterestPointBehaviour">
+    <Position X="2.75" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAggAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\InterestPointBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StayInRadiousBehaviour">
+    <Position X="5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\StayInRadiousBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilteredFlockBehaviour">
+    <Position X="7.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\FilteredFlockBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContextFilter">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\ContextFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PhysicsLayerFilter">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Filter Scripts\PhysicsLayerFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SameFlockFilter">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Filter Scripts\SameFlockFilter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flock">
+    <Position X="7.5" Y="1.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAGAABQQQAABAIAAAABAABAABAAgAECBAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Flock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AligmentBehaviour">
+    <Position X="7.75" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\AligmentBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AvoidanceBehaviour">
+    <Position X="10" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\AvoidanceBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CohesionBehaviour">
+    <Position X="12.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\CohesionBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObstacleAvoidanceBehaviour">
+    <Position X="14.25" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\ObstacleAvoidanceBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SteeredCohesionBehaviour">
+    <Position X="16.75" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Boids 3D\Behaviour Scripts\SteeredCohesionBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
