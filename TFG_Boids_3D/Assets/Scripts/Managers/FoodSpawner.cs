@@ -19,7 +19,7 @@ public class FoodSpawner : MonoBehaviour
     {
         origin=transform.position; 
         foodManager = FindObjectOfType<FoodManager>();
-        food = foodManager.GetFoodType(PlayerPrefs.GetInt("foodType" + id, 0));
+        food = foodManager.GetFoodType(PlayerPrefs.GetInt("foodType" + id, id));
         interestPointBehaviour = foodManager.GetInterestBehaviour(id);
         newGO = Instantiate(food, transform.position, Quaternion.identity, transform);
         interestPointBehaviour.interestPoint = newGO;

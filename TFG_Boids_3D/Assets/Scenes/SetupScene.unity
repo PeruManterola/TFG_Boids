@@ -3261,7 +3261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b5e702962ca7640a5ab68d5d3e72c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flockID: 0
+  flockID: 1
   stayInRadiousBehaviour: {fileID: 11400000, guid: 486f011783f36694ea69c96e3ba864b4,
     type: 2}
   interestPointBehaviour: {fileID: 11400000, guid: 1fca273bf6d18124ca12636ad22dec7c,
@@ -17702,7 +17702,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65b5e702962ca7640a5ab68d5d3e72c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  flockID: 0
+  flockID: 2
   stayInRadiousBehaviour: {fileID: 11400000, guid: 7ad4a01145452034b802fd6a03785b6b,
     type: 2}
   interestPointBehaviour: {fileID: 11400000, guid: 13186f674c7b66f47ba97ede081bb41e,
